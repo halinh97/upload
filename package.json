@@ -1,0 +1,29 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "An AJAX file uploader using JS and NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.17.2",
+    "busboy": "^0.2.14",
+    "connect-flash": "~0.1.1",
+    "connect-timeout": "^1.9.0",
+    "express": "^4.15.3",
+    "express-session": "^1.11.2",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "morgan": "^1.5.3",
+    "multer": "^1.3.0",
+    "node-gyp": "^3.6.2",
+    "path": "^0.12.7",
+    "req-timeout": "^1.0.2",
+    "socket.io": "^2.0.3",
+    "util": "^0.10.3"
+  }
+}
